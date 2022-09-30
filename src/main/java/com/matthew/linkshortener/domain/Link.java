@@ -19,7 +19,7 @@ public class Link {
     @NotBlank(message = "Origin link cannot be null")
     private String originLink;
 
-    private String shortedLink;
+    private String convertedLink;
 
     public Link(String originLink) {
         this.originLink = originLink;
